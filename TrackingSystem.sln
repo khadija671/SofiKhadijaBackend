@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4762D083-1F87-4870-A0F4-554767C57351}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{59EE8B65-4C2D-41BC-9887-7F0C0DC94F3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Webservices", "Webservices", "{65A031F9-0D71-4A29-8652-97330CD7A5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.Entities", "Pulse.Digital.TrackingSystem.Entities\Pulse.Digital.TrackingSystem.Entities.csproj", "{6D5346F7-4BBD-4793-8CB6-6D739B287299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.Context", "Pulse.Digital.TrackingSystem.Context\Pulse.Digital.TrackingSystem.Context.csproj", "{4825716E-1A15-482A-8A47-2B3E3E033278}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{4835E9BD-D5D2-4769-B862-EE6C0B53E683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.Logger", "Pulse.Digital.TrackingSystem.Logger\Pulse.Digital.TrackingSystem.Logger.csproj", "{B77C8FE8-F17D-4E84-AD93-5B5605786B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.OperationalWebservice", "Pulse.Digital.TrackingSystem.OperationalWebservice\Pulse.Digital.TrackingSystem.OperationalWebservice.csproj", "{E1084489-4BFB-40AD-AD0E-8342BCF8E6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.OperationalWebservice.Tests", "Pulse.Digital.TrackingSystem.OperationalWebservice.Tests\Pulse.Digital.TrackingSystem.OperationalWebservice.Tests.csproj", "{5C334A30-C131-4F0E-9C65-44DF4EEE30B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.Services", "Pulse.Digital.TrackingSystem.Services\Pulse.Digital.TrackingSystem.Services.csproj", "{CB11DA07-15F3-40A2-A8C8-EAA07D2319BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.Services.Common", "Pulse.Digital.TrackingSystem.Services.Common\Pulse.Digital.TrackingSystem.Services.Common.csproj", "{D7ED8014-3CE5-4640-BBE7-0D1C41B6FDBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pusle.Digital.TrackingSystem.DI", "Pusle.Digital.TrackingSystem.DI\Pusle.Digital.TrackingSystem.DI.csproj", "{144E5A90-1920-46A7-913C-D5A524EB8802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.Contracts", "Pulse.Digital.TrackingSystem.Contracts\Pulse.Digital.TrackingSystem.Contracts.csproj", "{9F89DA1A-A119-4068-A72D-E51340F03AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.Implementation", "Pulse.Digital.TrackingSystem.Implementation\Pulse.Digital.TrackingSystem.Implementation.csproj", "{559CBBF4-2B53-4ECF-82AB-F4270ADCDDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulse.Digital.TrackingSystem.Common", "Pulse.Digital.TrackingSystem.Common\Pulse.Digital.TrackingSystem.Common.csproj", "{CF4F00FE-D74C-4E45-B09C-D5CD2A587533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D5346F7-4BBD-4793-8CB6-6D739B287299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5346F7-4BBD-4793-8CB6-6D739B287299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5346F7-4BBD-4793-8CB6-6D739B287299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5346F7-4BBD-4793-8CB6-6D739B287299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4825716E-1A15-482A-8A47-2B3E3E033278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4825716E-1A15-482A-8A47-2B3E3E033278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4825716E-1A15-482A-8A47-2B3E3E033278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4825716E-1A15-482A-8A47-2B3E3E033278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77C8FE8-F17D-4E84-AD93-5B5605786B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77C8FE8-F17D-4E84-AD93-5B5605786B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77C8FE8-F17D-4E84-AD93-5B5605786B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77C8FE8-F17D-4E84-AD93-5B5605786B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1084489-4BFB-40AD-AD0E-8342BCF8E6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1084489-4BFB-40AD-AD0E-8342BCF8E6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1084489-4BFB-40AD-AD0E-8342BCF8E6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1084489-4BFB-40AD-AD0E-8342BCF8E6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C334A30-C131-4F0E-9C65-44DF4EEE30B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C334A30-C131-4F0E-9C65-44DF4EEE30B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C334A30-C131-4F0E-9C65-44DF4EEE30B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C334A30-C131-4F0E-9C65-44DF4EEE30B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB11DA07-15F3-40A2-A8C8-EAA07D2319BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB11DA07-15F3-40A2-A8C8-EAA07D2319BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB11DA07-15F3-40A2-A8C8-EAA07D2319BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB11DA07-15F3-40A2-A8C8-EAA07D2319BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7ED8014-3CE5-4640-BBE7-0D1C41B6FDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7ED8014-3CE5-4640-BBE7-0D1C41B6FDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7ED8014-3CE5-4640-BBE7-0D1C41B6FDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7ED8014-3CE5-4640-BBE7-0D1C41B6FDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144E5A90-1920-46A7-913C-D5A524EB8802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144E5A90-1920-46A7-913C-D5A524EB8802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144E5A90-1920-46A7-913C-D5A524EB8802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144E5A90-1920-46A7-913C-D5A524EB8802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F89DA1A-A119-4068-A72D-E51340F03AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F89DA1A-A119-4068-A72D-E51340F03AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F89DA1A-A119-4068-A72D-E51340F03AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F89DA1A-A119-4068-A72D-E51340F03AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559CBBF4-2B53-4ECF-82AB-F4270ADCDDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559CBBF4-2B53-4ECF-82AB-F4270ADCDDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559CBBF4-2B53-4ECF-82AB-F4270ADCDDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559CBBF4-2B53-4ECF-82AB-F4270ADCDDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4F00FE-D74C-4E45-B09C-D5CD2A587533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4F00FE-D74C-4E45-B09C-D5CD2A587533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4F00FE-D74C-4E45-B09C-D5CD2A587533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4F00FE-D74C-4E45-B09C-D5CD2A587533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4825716E-1A15-482A-8A47-2B3E3E033278} = {4762D083-1F87-4870-A0F4-554767C57351}
+		{B77C8FE8-F17D-4E84-AD93-5B5605786B88} = {4835E9BD-D5D2-4769-B862-EE6C0B53E683}
+		{E1084489-4BFB-40AD-AD0E-8342BCF8E6B7} = {65A031F9-0D71-4A29-8652-97330CD7A5D0}
+		{5C334A30-C131-4F0E-9C65-44DF4EEE30B4} = {65A031F9-0D71-4A29-8652-97330CD7A5D0}
+		{CB11DA07-15F3-40A2-A8C8-EAA07D2319BD} = {59EE8B65-4C2D-41BC-9887-7F0C0DC94F3F}
+		{D7ED8014-3CE5-4640-BBE7-0D1C41B6FDBB} = {59EE8B65-4C2D-41BC-9887-7F0C0DC94F3F}
+		{144E5A90-1920-46A7-913C-D5A524EB8802} = {4835E9BD-D5D2-4769-B862-EE6C0B53E683}
+		{9F89DA1A-A119-4068-A72D-E51340F03AD2} = {4762D083-1F87-4870-A0F4-554767C57351}
+		{559CBBF4-2B53-4ECF-82AB-F4270ADCDDA1} = {4762D083-1F87-4870-A0F4-554767C57351}
+	EndGlobalSection
+EndGlobal
